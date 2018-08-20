@@ -29,5 +29,11 @@ struct A
 
 int main()
 {
-	A a;
+	try
+	{
+		A a;
+	}
+	catch (...)
+	{
+	}
 }
